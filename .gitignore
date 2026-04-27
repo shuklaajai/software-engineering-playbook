@@ -1,0 +1,167 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+*.log
+.env
+.env.local
+.env.*.local
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.class
+.backup/
+.tmp/
+
+# Mobile Development
+# iOS
+ios/Pods/
+ios/*.xcworkspace/
+ios/build/
+ios/*.xcarchive/
+ios/DerivedData/
+ios/.swiftpm/
+*.xcworkspace/
+*.pbxproj
+
+# Android
+android/build/
+android/.gradle/
+android/.idea/
+android/local.properties
+android/**/build/
+android/*.apk
+android/*.aab
+
+# Containers & Orchestration
+.kube/
+*.kubeconfig
+kubectl-config
+
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate.backup
+crash.log
+crash.*.log
+
+# AWS
+.aws/credentials
+.aws/config
+.awspending
+
+# Docker
+.dockerignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+
+# Node.js
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-error.log
+yarn-debug.log*
+dist/
+build/
+package-lock.json
+yarn.lock
+
+# Data Science & ML
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.pkl
+*.pickle
+*.h5
+*.joblib
+*.npy
+*.npz
+model_weights/
+training_logs/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Large files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.arrow
+large_datasets/
+data/raw/
+
+# Miscellaneous
+*.zip
+*.tar.gz
+*.rar
+*.7z
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
